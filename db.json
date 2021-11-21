@@ -1,0 +1,35 @@
+{
+    "codigo_assesor":"c001",
+    "name":"nombre del asesor",
+    "clientes_asignados":2,
+     "total_pedidos":2, 
+    "clientes":[
+        {
+            "id_cliente":2,
+            "total_pedidos":1,
+            "name":"cliente uno",
+            "detalle_pedidos":[{
+                "id_pedido":1,
+                "total_productos":2,
+                "total_pedido":20000,
+                "estado":"pagado",
+                "fecha_pago":"2021-01-20",
+                "productos":[
+                     {
+                        "id_productos":1,
+                        "tipo":"cadenas",
+                        "cantidad":3,
+                        "valor_unitario":50000,
+                        "total":150000
+                    },
+                    {
+                        "id_productos":2,
+                        "tipo":"bateria",
+                        "cantidad":1,
+                        "valor_unitario":50000,
+                        "total":50000
+                    }
+                   ]
+            }]
+        }]
+ }
